@@ -6,7 +6,7 @@ dotenv.config();
 
 @Module({
   imports: [
-    MongooseModule.forRoot(`${process.env.MONGO_DB}`, {
+    MongooseModule.forRoot(`mongodb+srv://mohammad:husain@cluster0.iulslwa.mongodb.net/`, {
       dbName: 'nest-crud',
     }),
     UserModule,
