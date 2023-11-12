@@ -1,9 +1,5 @@
 {
     "version": 2,
-    "env":{
-        "MONGO_DB":"@MONGO_DB",
-        "PORT":"@PORT"
-    },
     "builds": [
         {
             "src": "src/main.ts",
