@@ -1,8 +1,8 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { CreateUserDto } from './dto/create-user.dto';
 import { InjectModel } from '@nestjs/mongoose';
-import { User } from './models/user.model';
 import { Model } from 'mongoose';
+import { User } from './schema/user.schema';
 
 @Injectable()
 export class UserService {
